@@ -1,6 +1,9 @@
 import React from "react";
 
 const Test = () => {
+  // logic
+
+  // view
   return (
     <section className="h-full py-12 flex flex-col justify-between">
       {/* START: Progress 컴포넌트 */}
