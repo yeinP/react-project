@@ -1,7 +1,7 @@
 import React from "react";
 import { IoMdRefresh, IoMdShareAlt } from "react-icons/io";
 
-export const Result = () => {
+const Result = () => {
   // logic
 
   // view
@@ -153,3 +153,5 @@ export const Result = () => {
     </section>
   );
 };
+
+export default Result;
