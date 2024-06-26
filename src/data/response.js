@@ -135,3 +135,223 @@ export const mbtiQuestionList = [
       }
 
 ]
+
+
+export const mbtiAnswerList = [
+    {
+      id: 1,
+      questionStep: 1,
+      questionNextStep: 2,
+      questionType: "EI",
+      answerList: [
+        {
+          code: 0,
+          type: "E",
+          text: "꺄아! 당연히 가서 떼창도 하고 다른 팬들이랑 같이 즐겨야지!",
+        },
+        {
+          code: 1,
+          type: "I",
+          text: "선재가 날 초대해 주다니..오로지 선재에게만 집중하고 싶어",
+        },
+      ],
+    },
+    {
+      id: 2,
+      questionStep: 2,
+      questionNextStep: 3,
+      questionType: "EI",
+      answerList: [
+        {
+          code: 0,
+          type: "E",
+          text: "네가 내 별이다. 너라는 존재 자체가 나에게 큰 의미야",
+        },
+        {
+          code: 1,
+          type: "I",
+          text: "우리 서로에게 좋은 영향을 주는 관계가 되자",
+        },
+      ],
+    },
+    {
+      id: 3,
+      questionStep: 3,
+      questionNextStep: 4,
+      questionType: "NS",
+      answerList: [
+        {
+          code: 0,
+          type: "S",
+          text: "그 전에 현재의 문제를 해결하는 게 먼저야",
+        },
+        {
+          code: 1,
+          type: "N",
+          text: "과거로 돌아가면 미래를 바꿀 수 있을지도 몰라!",
+        },
+      ],
+    },
+    {
+      id: 4,
+      questionStep: 4,
+      questionNextStep: 5,
+      questionType: "TF",
+      answerList: [
+        {
+          code: 0,
+          type: "F",
+          text: "너 구하고 죽는 거면 난 괜찮아. 상관없어",
+        },
+        {
+          code: 1,
+          type: "T",
+          text: "사랑은 중요하지만, 목숨 거는 건 오바야",
+        },
+      ],
+    },
+    {
+      id: 5,
+      questionStep: 5,
+      questionNextStep: 6,
+      questionType: "PJ",
+      answerList: [
+        {
+          code: 0,
+          type: "J",
+          text: "선약이 있으니 어쩔 수 없지",
+        },
+        {
+          code: 1,
+          type: "P",
+          text: "무조건 가야지~ 무슨 생각을 해",
+        },
+      ],
+    },
+    {
+      id: 6,
+      questionStep: 6,
+      questionNextStep: 7,
+      questionType: "NS",
+      answerList: [
+        {
+          code: 0,
+          type: "S",
+          text: "사람들 시선이 너무 부담스러워ㅠㅠ",
+        },
+        {
+          code: 1,
+          type: "N",
+          text: "이런 상황도 우리 사랑의 한 페이지가 될 거야",
+        },
+      ],
+    },
+    {
+      id: 7,
+      questionStep: 7,
+      questionNextStep: 8,
+      questionType: "TF",
+      answerList: [
+        {
+          code: 0,
+          type: "F",
+          text: "사랑하는 사람을 위해서라면 기꺼이 내 모든 것을 줄 수 있어",
+        },
+        {
+          code: 1,
+          type: "T",
+          text: "과거로 가는 것이 최선의 방법일까?",
+        },
+      ],
+    },
+    {
+      id: 8,
+      questionStep: 8,
+      questionNextStep: 9,
+      questionType: "NS",
+      answerList: [
+        {
+          code: 0,
+          type: "S",
+          text: "지금의 중요한 물건이나 사진들을 넣고 이순간을 기록하고 싶어",
+        },
+        {
+          code: 1,
+          type: "N",
+          text: "미래에 대한 편지나 꿈을 담은 메모를 넣고 싶어",
+        },
+      ],
+    },
+    {
+      id: 9,
+      questionStep: 9,
+      questionNextStep: 10,
+      questionType: "TF",
+      answerList: [
+        {
+          code: 0,
+          type: "F",
+          text: "믿을 수 없어... 너무 슬프고 충격적이야",
+        },
+        {
+          code: 1,
+          type: "T",
+          text: "선재의 죽음 뒤에는 분명 숨겨진 이유가 있을 거야",
+        },
+      ],
+    },
+    {
+      id: 10,
+      questionStep: 10,
+      questionNextStep: 11,
+      questionType: "EI",
+      answerList: [
+        {
+          code: 0,
+          type: "E",
+          text: "선재야!널 좋아해. 이제 내 맘 다 말할래💕",
+        },
+        {
+          code: 1,
+          type: "I",
+          text: "선재가 내 마음을 알아주지 않을까?",
+        },
+      ],
+    },
+    {
+      id: 11,
+      questionStep: 11,
+      questionNextStep: 12,
+      questionType: "PJ",
+      answerList: [
+        {
+          code: 0,
+          type: "J",
+          text: "과거로 가기 전에 뭘 해야 할지 리스트를 만들자",
+        },
+        {
+          code: 1,
+          type: "P",
+          text: "계획은 과거에서 그때그때 세우고 일단 출발하자!",
+        },
+      ],
+    },
+    {
+      id: 12,
+      questionStep: 12,
+      questionNextStep: 0,
+      questionType: "PJ",
+      answerList: [
+        {
+          code: 0,
+          type: "J",
+          text: "고백하기 전에 우리의 관계를 더 확실히 하고 싶어",
+        },
+        {
+          code: 1,
+          type: "P",
+          text: "너무 설레자낭~💗 이미 사랑에 빠져버림",
+        },
+      ],
+    },
+  ];
